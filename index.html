@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional portfolio of [Your Name] – [Your Role] specializing in [Your Domain]." />
+  <meta name="keywords" content="portfolio, developer, [Your Name], skills, projects, experience" />
+  <meta name="author" content="[Your Name]" />
+  <meta property="og:title" content="[Your Name] – Portfolio" />
+  <meta property="og:description" content="Explore my projects, skills, and experience." />
+  <title>[Your Name] | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#participation" class="nav-link">Participation</a>
+        <a href="#membership" class="nav-link">Membership</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HOME ========== -->
+    <section id="home" class="section home-section" aria-labelledby="home-heading">
+      <div class="home-container">
+        <div class="home-image-wrapper reveal">
+          <div class="profile-ring">
+            <img
+              src="Profile.png"
+              alt="Profile photo of [Your Name]"
+              class="profile-photo"
+              id="profile-photo"
+              onerror="this.src='https://ui-avatars.com/api/?name=Your+Name&size=200&background=000&color=fff&rounded=true'"
+            />
+          </div>
+        </div>
+        <div class="home-text reveal">
+          <p class="home-greeting">Hello, I am</p>
+          <h1 id="home-heading" class="home-name"> GIRINATH.M</h1>
+          <p class="home-tagline">
+            Passionate Embedded Systems and IoT Enthusiast with an interest in developing smart and innovative electronic solutions.
+          </p>
+          <div class="home-actions">
+            <a href="M.GIRINATH_RESUME.pdf" download="YourName_Resume.pdf" class="btn btn-primary" aria-label="Download Resume">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+            <a href="M.GIRINATH_RESUME.pdf" target="_blank" rel="noopener" class="btn btn-outline" aria-label="View Resume">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              View Resume
+            </a>
+            <a href="#projects" class="btn btn-outline" aria-label="View Projects">
+              View Projects
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          
+          <h2 id="about-heading" class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>I am Girinath.M , a pre-final-year B.E. Electronics and Communication Engineering student.
+               I am passionate about IoT, Embedded Systems and VLSI, with a strong interest in developing practical technology solutions.
+               I have foundational knowledge of PCB Design, C and C++ programming and fundamental electronics.My projects include an Air Quality Monitoring System, IoT-Based Crop Root Health Monitoring System and Radar Detection System.
+               Through internship learning and hands-on project experience, I am gaining practical knowledge in electronics and embedded technologies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section id="education" class="section section-alt" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Background</span>
+          <h2 id="education-heading" class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="education-timeline reveal">
+
+          <div class="edu-card" tabindex="0">
+            
+            <div class="edu-content">
+              <div class="edu-header">
+                <h3 class="edu-title">Bachelor of Degree - Electronics and Communication Engineering</h3>
+                <span class="edu-badge">2024-2028</span>
+              </div>
+              <p class="edu-institution">
+                
+                NPR College of Engineering and Technology, Natham, Dindigul
+              </p>
+              
+              <div class="edu-result">
+                <span class="result-label">CGPA:</span>
+                <span class="result-value">8.5%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card" tabindex="0">
+            
+            <div class="edu-content">
+              <div class="edu-header">
+                <h3 class="edu-title">HSC (11th & 12th std)</h3>
+                <span class="edu-badge">2022-2024</span>
+              </div>
+              <p class="edu-institution">
+                
+                M.S.P. Solai Nadar Memorial Higher Secondary School, Dindigul
+              </p>
+              <p class="edu-board">Board: State Board  | Stream:Computer Science </p>
+              <div class="edu-result">
+                <span class="result-label">Percentage:</span>
+                <span class="result-value">68.83%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card" tabindex="0">
+           
+            <div class="edu-content">
+              <div class="edu-header">
+                <h3 class="edu-title">SSLC (6th - 10th std)</h3>
+                <span class="edu-badge">2017-2022</span>
+              </div>
+              <p class="edu-institution">
+                
+                 Kalaimagal Higher Secondary School,Vadamadurai, Dindigul.
+              </p>
+              
+              <div class="edu-result">
+                <span class="result-label">Percentage:</span>
+                <span class="result-value">64.4%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          
+          <h2 id="skills-heading" class="section-title">Skills and Tools</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-wrapper reveal">
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              
+              Programming Languages
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-badge">C</div>
+              <div class="skill-badge">C++</div>
+              <div class="skill-badge">Python</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              
+              Microcontroller and Microprocessor
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-badge">Arduino Uno</div>
+              <div class="skill-badge">ESP32</div>
+              <div class="skill-badge">STM32</div>
+              <div class="skill-badge">Raspberry Pi</div>
+            </div>
+          </div>
+
+        
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              
+              Tools and Platforms
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-badge">Git</div>
+              <div class="skill-badge">GitHub</div>
+              <div class="skill-badge">Proteus</div>
+              <div class="skill-badge">VS Code</div>
+              <div class="skill-badge">MATLAB</div>
+              <div class="skill-badge">Arduino IDE</div>
+              <div class="skill-badge">STM32 CubeIDE</div>
+              <div class="skill-badge">Keil uVision</div>
+              <div class="skill-badge">EasyEDA</div>
+              <div class="skill-badge">ThingSpeak</div>
+              <div class="skill-badge">Tinkercad</div>
+              <div class="skill-badge">Kicad</div>
+
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">
+              
+              Soft Skills
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-badge">Problem Solving</div>
+              <div class="skill-badge">Team Work</div>
+              <div class="skill-badge">Communication</div>
+              <div class="skill-badge">Leadership</div>
+              <div class="skill-badge">Critical Thinking</div>
+              <div class="skill-badge">Adaptability</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section section-alt" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">What I Have Built</span>
+          <h2 id="projects-heading" class="section-title">Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid reveal">
+
+          <article class="project-card" tabindex="0" role="button" aria-label="View details for Project One" onclick="openProjectModal('project1')" onkeydown="if(event.key==='Enter')openProjectModal('project1')">
+            <div class="project-img-wrap">
+              <img src="AQM Project.jpg" alt="Screenshot of Project One" class="project-img" />
+              <div class="project-img-placeholder" aria-hidden="true"><span> </span></div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Embedded Systems</span>
+              <h3 class="project-name">Air Qualty Sysyem (AQM System)</h3>
+              <p class="project-desc">The Air Quality Monitoring System is an embedded IoT project designed to monitor environmental conditions in real time.
+                                      It measures air quality parameters using gas and environmental sensors and displays the collected data for continuous monitoring.
+                                      The system helps create healthier environments by providing accurate and timely air quality information.</p>
+              <div class="project-tags">
+                <span class="project-tag">Ardiuno IDE</span>
+                <span class="project-tag">Sensor</span>
+                
+              </div>
+              <div style="margin-top: 1rem;">
+                <span class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">View Project</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" tabindex="0" role="button" aria-label="View details for Project Two" onclick="openProjectModal('project2')" onkeydown="if(event.key==='Enter')openProjectModal('project2')">
+            <div class="project-img-wrap">
+              <img src="Radar project.jpg" alt="Screenshot of Project Two" class="project-img" onerror="this.style.display='none'"/>
+              <div class="project-img-placeholder" aria-hidden="true"><span> </span></div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">IoT</span>
+              <h3 class="project-name">Radar Detection System</h3>
+              <p class="project-desc">The Radar Detection System is an embedded and IOt project that detects and tracks nearby objects using an ultrasonic sensor and a rotating servo motor.
+                                      It scans the surrounding area in real time and visualizes object positions through a radar-style interface.
+                                      The system demonstrates distance measurement, object detection and real-time monitoring for automation and surveillance applications.</p>
+              <div class="project-tags">
+                <span class="project-tag">Web Design</span>
+                <span class="project-tag">IOT</span>
+                
+              </div>
+              <div style="margin-top: 1rem;">
+                <span class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">View Project</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" tabindex="0" role="button" aria-label="View details for Project Three" onclick="openProjectModal('project3')" onkeydown="if(event.key==='Enter')openProjectModal('project3')">
+            <div class="project-img-wrap">
+              <img src="Root Sense Projects.jpg" alt="Screenshot of Project Three" class="project-img" onerror="this.style.display='none'"/>
+              <div class="project-img-placeholder" aria-hidden="true"><span> </span></div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">IOT</span>
+              <h3 class="project-name">RootSense AI</h3>
+              <p class="project-desc">RootSense AI is an IoT-based smart agriculture system designed to monitor crop root health and soil conditions in real time.
+                                      It collects environmental data using multiple sensors and transmits the information through an ESP32 for continuous monitoring.
+                                      The system enables precision farming by helping farmers improve crop health, optimize irrigation and increase agricultural productivity.</p>
+              <div class="project-tags">
+                <span class="project-tag">Github</span>
+                <span class="project-tag">ThingSpeak</span>
+                <span class="project-tag">ESP32</span>
+              </div>
+              <div style="margin-top: 1rem;">
+                <span class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;">View Project</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true" onclick="closeProjectModal()">
+      <div class="project-modal" id="project-modal" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeProjectModal()" aria-label="Close project details">&times;</button>
+        <div class="modal-img-wrap">
+          <img id="modal-img" src="" alt="Project screenshot" class="modal-img" onerror="this.style.display='none'"/>
+          <div class="modal-img-placeholder" aria-hidden="true"><span id="modal-img-text"></span></div>
+        </div>
+        <div class="modal-body">
+          <span id="modal-category" class="project-category"></span>
+          <h2 id="modal-title" class="modal-project-title"></h2>
+          <p id="modal-desc" class="modal-desc"></p>
+          <div class="modal-meta-grid">
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Duration</span>
+              <span id="modal-duration" class="modal-meta-value"></span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Team Size</span>
+              <span id="modal-team" class="modal-meta-value"></span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Role</span>
+              <span id="modal-role" class="modal-meta-value"></span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Status</span>
+              <span id="modal-status" class="modal-meta-value"></span>
+            </div>
+          </div>
+          <div class="modal-features">
+            <h4>Key Features</h4>
+            <ul id="modal-features-list"></ul>
+          </div>
+          <div class="modal-skills-section">
+            <h4>Technologies Used</h4>
+            <div id="modal-skills" class="modal-skills-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Work History</span>
+          <h2 id="experience-heading" class="section-title">Experience</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="experience-list reveal">
+
+          <div class="exp-card" tabindex="0">
+            <div class="exp-right">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-job-title">Embedde & IOT Intern</h3>
+                  <p class="exp-company">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    Z00L00P
+                  </p>
+                </div>
+                <div class="exp-badges">
+                  <span class="exp-type internship">Internship</span>
+                  <span class="exp-mode">On-Site</span>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-date">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  Apr 2026 - Sep 2026
+                </span>
+                <span class="exp-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Dindigul , TamilNadu
+                </span>
+              </div>
+              <p class="exp-desc">Internship in Embedded Systems and IoT, gaining practical experience in electronics, PCB design and hardware development.
+                                  Strengthened technical skills through hands-on training, field research and collaborative engineering projects.</p>
+              <div class="exp-skills-wrap">
+                <span class="exp-skill">PCB Design</span>
+                <span class="exp-skill">EasyEDA</span>
+                <span class="exp-skill">Rasberry Pi</span>
+                
+              </div>
+              <div class="exp-offer-section">
+                <button class="offer-toggle-btn" onclick="toggleOffer(this)" aria-expanded="false" aria-controls="offer1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  View Offer Letter
+                </button>
+                <div class="offer-img-wrap" id="offer1" aria-hidden="true">
+                  <img src="Z00L00P Intern.jpg" alt="Offer letter from Company 1" class="offer-img" onerror="this.style.display='none'"/>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-card" tabindex="0">
+            <div class="exp-right">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-job-title">Internet of Things(IOT) Intern </h3>
+                  <p class="exp-company">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    Tarcin Robotic LLP
+                  </p>
+                </div>
+                <div class="exp-badges">
+                  <span class="exp-type job">Internship</span>
+                  <span class="exp-mode onsite">Onsite</span>
+                </div>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-date">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  Dec 2025 - Jan 2026
+                </span>
+                <span class="exp-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Madurai , TamilNadu
+                </span>
+              </div>
+              <p class="exp-desc">Completed an internship focused on Internet of Things (IoT)  application development.
+                                  Worked with microcontrollers, sensors and IoT technologies to build smart automation solutions.
+                                  Enhanced practical knowledge through hands-on projects, hardware integration and real-world problem solving.</p>
+              <div class="exp-skills-wrap">
+                <span class="exp-skill">Github</span>
+                <span class="exp-skill">VS Code</span>
+                <span class="exp-skill">Web Design</span>
+              </div>
+              <div class="exp-offer-section">
+                <button class="offer-toggle-btn" onclick="toggleOffer(this)" aria-expanded="false" aria-controls="offer2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  View Offer Letter
+                </button>
+                <div class="offer-img-wrap" id="offer2" aria-hidden="true">
+                  <img src="Tarcin intern certificate.jpg" alt="Offer letter from Company 2" class="offer-img" onerror="this.style.display='none'"/>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CERTIFICATES ========== -->
+    <section id="certificates" class="section section-alt" aria-labelledby="certificates-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          
+          <h2 id="certificates-heading" class="section-title">Certificates</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="cert-grid reveal">
+
+          <div class="cert-card" tabindex="0">
+            <h3 class="cert-title">VLSI for Beginners</h3>
+            <div class="cert-meta">
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                <span>NATIONAL INSTITUTE OF ELECTRONICS AND INFORMATION TECHNOLOGY</span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Duration: 8th to 12th May </span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span>Domain: VLSI</span>
+              </div>
+            </div>
+            <a href="cert1.jpg" target="_blank" rel="noopener" class="cert-view-btn" aria-label="View AWS Certificate">View Certificate</a>
+          </div>
+
+          <div class="cert-card" tabindex="0">
+            <h3 class="cert-title">Embedded for Beginers</h3>
+            <div class="cert-meta">
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                <span>NATIONAL INSTITUTE OF ELECTRONICS AND INFORMATION TECHNOLOGY</span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Duration: 10th to 14th July 2025 </span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span>Domain: Embedded Systems</span>
+              </div>
+            </div>
+            <a href="cert2.jpg" target="_blank" rel="noopener" class="cert-view-btn" aria-label="View IBM Certificate">View Certificate</a>
+          </div>
+
+          <div class="cert-card" tabindex="0">
+            <h3 class="cert-title">Introduction to MATLAB & Simulink</h3>
+            <div class="cert-meta">
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                <span>NATIONAL INSTITUTE OF ELECTRONICS AND INFORMATION TECHNOLOGY</span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Duration: 10th to 14th July 2025</span>
+              </div>
+              <div class="cert-meta-row">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <span>Domain: Signals</span>
+              </div>
+            </div>
+            <a href="cert3.jpg" target="_blank" rel="noopener" class="cert-view-btn" aria-label="View Web Dev Certificate">View Certificate</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PARTICIPATION ========== -->
+    <section id="participation" class="section" aria-labelledby="participation-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          
+          <h2 id="participation-heading" class="section-title">Participation</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="participation-grid reveal">
+
+          <div class="part-card" tabindex="0">
+            <div class="part-img-wrap">
+              <img src="Root Sense Projects.jpg" alt="Smart India Hackathon" class="part-img" onerror="this.style.display='none'"/>
+              
+            </div>
+            <div class="part-header">
+              <div>
+                <h3 class="part-event">HackXtreme'26</h3>
+                <span class="part-date">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="13" height="13"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  Apr 2026 | K.Ramakrishnan College of Engineering , Trichy
+                </span>
+              </div>
+              <span class="part-result winner">participation</span>
+            </div>
+            <div class="part-body">
+              <h4>Project: RootSense AI</h4>
+              <p>RootSense AI is an IoT-based smart agriculture system designed to monitor crop root health in real time.
+                 The system uses sensors and an ESP32 to collect soil and environmental data, helping farmers make informed decisions.
+                 It enables precision agriculture by improving crop health, optimizing resource usage and increasing farming efficiency.</p>
+              <div class="part-tags">
+                <span class="part-tag">Web Design</span>
+                <span class="part-tag">IOT</span>
+                <span class="part-tag">ThingSpeak</span>
+                <span class="part-tag">Github</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MEMBERSHIP ========== -->
+    <section id="membership" class="section section-alt" aria-labelledby="membership-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          
+          <h2 id="membership-heading" class="section-title">Membership</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="membership-grid reveal">
+
+          <div class="member-card" tabindex="0">
+            <div class="member-img-wrap">
+              <img src="Membership certificate.jpg" alt="IEEE Membership ID Card" class="member-img" onerror="this.style.display='none'"/>
+              <div class="member-img-placeholder" aria-hidden="true"></div>
+            </div>
+            <div class="member-info">
+              <h3 class="member-name">IETE Student Member</h3>
+              <div class="member-meta">
+                <div class="member-meta-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  <span>THE INSTITUTION OF ELECTRONICS AND TELECOMMUNICATION ENGINEERS</span>
+                </div>
+                <div class="member-meta-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <span>Duration: 2026 - 2029</span>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get In Touch</span>
+          <h2 id="contact-heading" class="section-title">Contact Me</h2>
+          <div class="section-line"></div>
+          <p class="contact-subtitle">Feel free to reach out - I am always open to discussing new opportunities!</p>
+        </div>
+        <div class="contact-wrapper reveal">
+
+          <div class="contact-cards">
+            <a href="tel:+91XXXXXXXXXX" class="contact-card" aria-label="Call me">
+              <div class="contact-card-icon phone-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.16 6.16l1.27-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Phone</span>
+                <span class="contact-card-value">7845462980</span>
+              </div>
+              <div class="contact-card-arrow">&#8594;</div>
+            </a>
+
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="contact-card" aria-label="Connect on LinkedIn">
+              <div class="contact-card-icon linkedin-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">LinkedIn</span>
+                <span class="contact-card-value">linkedin.com/in/yourusername</span>
+              </div>
+              <div class="contact-card-arrow">&#8594;</div>
+            </a>
+
+            <a href="mailto:youremail@gmail.com" class="contact-card" aria-label="Send me an email">
+              <div class="contact-card-icon gmail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-card-label">Gmail</span>
+                <span class="contact-card-value">girinath1567@gmail.com</span>
+              </div>
+              <div class="contact-card-arrow">&#8594;</div>
+            </a>
+          </div>
+
+          <form class="contact-form" id="contact-form" onsubmit="handleContactForm(event)" novalidate aria-label="Contact message form">
+            <h3 class="form-title">Send Me a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" placeholder=" " required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="email" placeholder=" " required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder=" " required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder=" " required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit-btn" id="form-submit-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+            <p class="form-success" id="form-success" aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-text">Designed and Developed by <strong>GIRINATH.M</strong></p>
+      <p class="footer-copy">&copy; <span id="year"></span> All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home" aria-label="Back to top">Back to Top &#8593;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
